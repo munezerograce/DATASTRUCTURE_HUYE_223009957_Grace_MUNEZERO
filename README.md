@@ -1,9 +1,13 @@
 
 Question 1.
+
 THE FOLLOWING TEXT EXPLAINS THE CODES WHICH SHOWS HOW IT WORKS AND FUNCTIONS IN THE FOLLOWING WAYS.
+
 This is a simple C++ program that demonstrates how to output text to the console.
 Code Breakdown:
+
 using namespace std;
+
 This line tells the C++ program to use the standard namespace (std).
 The namespace is a container for identifiers like functions, objects, and variables to avoid naming conflicts.
 std is the standard namespace where C++'s library functions (such as cout, cin, endl, etc.) are defined.
@@ -13,6 +17,7 @@ This is the main function where the program execution begins. In every C++ progr
 int indicates that the function returns an integer value, typically used to represent the status code upon termination. Returning 0 usually means successful execution.
 
 cout << "Hello, World!";
+
 cout stands for character output. It's an object used to display output to the console.
 The << operator is called the stream insertion operator, which is used to send data to the output stream (in this case, the console).
 "Hello, World!" is the string that you want to print. This string will be displayed on the screen when the program is run.
@@ -21,7 +26,9 @@ return 0;
 This line ends the main function and returns a value to the operating system.
 Returning 0 indicates that the program finished successfully without errors. The number 0 is a standard convention for successful execution, while other values (like 1) may indicate errors or abnormal termination.
 Execution Flow:
+
 The program begins by executing main().
+
 using namespace std; allows you to use functions from the standard library easily.
 It then outputs "Hello, World!" to the screen using cout.
 Finally, it ends the program and returns 0, signifying that everything ran as expected.
@@ -31,7 +38,9 @@ Question 2.
 using namespace std;
 This line tells the compiler to use the standard namespace (std) so that standard library functions and objects (like cout, cin, and endl) can be used without explicitly stating std:: each time.
 Main Function Declaration:
+
 int main() {
+
 The main() function is where the program starts. Every C++ program must have a main() function. It returns an integer, typically 0, to indicate that the program has completed successfully.
 Variable Declarations and Initializations:
 
@@ -45,10 +54,12 @@ price is a double variable used for storing floating-point numbers (numbers with
 Character Variable (grade):
 
 char grade = 'A';
+
 grade is a char variable used to store a single character. In this case, it holds the letter 'A'.
 String Variable (name):
 
 string name = "Alice";
+
 name is a string variable, which is used to store a sequence of characters (text). It is initialized to the string "Alice".
 Output Statements Using cout:
 
@@ -76,8 +87,9 @@ Question 3.
 
 This C++ program takes user input for name and age, then outputs a personalized greeting message with the user's name and age.
 Code Breakdown:
+
 using namespace std;
-using namespace std;
+
 This tells the compiler to use the standard namespace (std), so we don't need to prefix standard library functions (like cout, cin, and endl) with std::.
 Main Function Declaration:
 int main() {
@@ -127,6 +139,7 @@ a is set to 10, and b is set to 3. These values will be used in the arithmetic o
 Sum Calculation:
 
 cout << "Sum: " << a + b << endl;
+
 The program calculates the sum of a and b using the + operator.
 The result of a + b (which is 10 + 3 = 13) is printed using cout.
 << is the stream insertion operator, which is used to output the result.
@@ -141,12 +154,16 @@ Product Calculation:
 cout << "Product: " << a * b << endl;
 The program calculates the product of a and b using the * operator.
 The result of a * b (which is 10 * 3 = 30) is printed.
+
 Quotient Calculation:
+
 cout << "Quotient: " << a / b << endl;
+
 The program calculates the quotient of a divided by b using the / operator.
 The result of a / b (which is 10 / 3 = 3 in integer division) is printed.
 Note: Since both a and b are integers, the division will result in an integer, and the decimal part will be discarded.
 Remainder Calculation:
 cout << "Remainder: " << a % b << endl;
 The program calculates the remainder of a divided by b using the % operator.
+
 The result of a % b (which is 10 % 3 = 1) is printed.
